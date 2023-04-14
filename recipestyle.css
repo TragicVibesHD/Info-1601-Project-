@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/* Global styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #3c486b;
+  background-color: #f0f0f0;
+}
+
+a {
+  color: #3c486b;
+  text-decoration: none;
+}
+
+ul, ol {
+  margin: 1rem 0;
+  padding: 0 0 0 2rem;
+}
+
+ul li, ol li {
+  margin: 0.5rem 0;
+}
+
+/* Header styles */
+header {
+  display: flex;
+  flex-direction:column;
+  background-color: #F45050;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 1;
+}
+
+nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in-out;
+  margin-right: 0.5em;
+}
+
+#logo img:hover {
+  transform: scale(1.2);
+}
+
+
+/* Main styles */
+main {
+  max-width: 1200px;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.recipe {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.recipe img {
+  max-width: 100%;
+  height: auto;
+}
+
+.recipe .recipe-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recipe .recipe-name {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.recipe .recipe-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.recipe .recipe-details h2 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.recipe .recipe-details ol {
+  margin-top: 1rem;
+}
+
+.recipe .recipe-details li {
+  margin-left: 1rem;
+}
+
+/* Footer styles */
+footer {
+  background-color: #3c486b;
+  border-top: 1px solid #e4e4e4;
+  margin-top: 2rem;
+  padding: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.contact-us {
+  text-align: left;
+}
+.contact-us a {
+  color: white;
+}
+#title{
+  text-align: center;
+  color: #fff;
+  font-size: 48px;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 20px 0;
+}
+
+/* Card styles */
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px 5px 0 0;
+  margin-bottom: 0.5rem;
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  font-family: 'Lobster', cursive;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  font-size: 1.2rem;
+}
